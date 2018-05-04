@@ -1,0 +1,138 @@
+body {
+  font-family: "Microsoft YaHei";
+  background-color:#ddd;
+}
+/*导航栏*/
+.nav-header nav {
+  height:60px;
+  background-color: #333;
+}
+.nav-header nav .nav-logo {
+  display: inline-block;
+}
+.nav-header nav .nav-logo img {
+  padding-top: 5px;
+  padding-left:20px;
+  height: 50px;
+}
+.nav-header nav .nav-list {
+  float: right;
+}
+.nav-header nav .nav-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-header nav .nav-list ul li {
+   float: left;
+   border-right: 1px solid #bbb;
+}
+ 
+li:last-child {
+    border-right: none;
+}
+.nav-header nav .nav-list ul li a {
+  display: block;
+  font-size:10px;
+  padding: 25px; 25px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.nav-header nav .nav-list ul li a:hover,
+.nav-header nav .nav-list ul li a:active {
+  color: #cccccc;
+}
+/*文章部分*/
+article, aside{
+  display:block;
+  margin:30px;padding:20px;
+  background:white;
+}
+article header h1,
+aside header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+article header h2 {
+  color: #888;
+  margin-bottom: 10px;
+}
+article header h3 {
+  color: #999;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+article div figure{
+  width: 216px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 20px;
+}
+article div figure figcaption {
+  margin-bottom: 10px;
+}
+article section div img {
+  margin: 10px 0 10px 0;
+}
+article section ul li {
+  text-indent: 2em;
+  list-style: none;
+  margin-bottom: 5px;
+}
+article ol li{
+  margin-left: 2em;
+  margin-bottom: 5px;
+}
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+table thead {
+  background-color: #333333;
+  color: white;
+}
+table td {
+  border: 1px solid #ccc;
+}
+table td,
+table th {
+  padding: 3px;
+}
+table tfoot {
+  background-color: #cccccc;
+}
+/*表单部分*/
+aside header {
+  border-left: 3px solid #ccc;
+  padding: 1px 0 1px 10px;
+  margin-bottom: 10px;
+}
+aside form .formone{
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+  }
+aside form .formtwo{
+  margin-left: 50%
+}
+aside form input[type="submit"] {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+}
+aside form textarea {
+  width: 35%;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0  30px 0;
+}
+footer span {
+  color: white;
+}
