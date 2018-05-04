@@ -1,0 +1,122 @@
+一.水平排列
+第一部分：center inline elements（text,links,inline-block,inline-table, inline-flex )horizontally
+.center-children {
+  text-align: center;
+}
+第二部分：center a block-level element by giving it margin-left and margin-right of auto and it has a set width.
+.center-me {
+  margin: 0 auto;
+}
+第三部分：
+1.two or more block-level elements that need to be centered horizontally in a row,
+.inline-block-center {
+  text-align: center;
+}
+.inline-block-center div {
+  display: inline-block;
+  text-align: left;
+}
+
+2.flex-center {
+  display: flex;
+  justify-content: center;
+}
+3.仍显示为块级元素，垂直堆叠：
+main div {
+  background: black;
+  margin: 0 auto;
+  color: white;
+  padding: 15px;
+  margin: 5px auto;
+}
+
+main div:nth-child(1) {
+  width: 200px;
+}
+main div:nth-child(2) {
+  width: 400px;
+}
+main div:nth-child(3) {
+  width: 125px;
+}
+二：垂直居中
+第一部分：
+1.Sometimes inline / text elements can appear vertically centered, just because there is equal padding above and below them.
+2.If padding isn't an option for some reason, and you're trying to center some text that you know will not wrap,
+.center-text-trick {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+3.multiple lines/table cell
+.center-table {
+  display: table;
+  height: 250px;
+  background: white;
+  width: 240px;
+  margin: 20px;
+}
+.center-table p {
+  display: table-cell;
+  margin: 0;
+  background: black;
+  color: white;
+  padding: 20px;
+  border: 10px solid white;
+  vertical-align: middle;
+}
+4.mutiple lines/flexbox
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+5."ghost element" technique, in which a full-height pseudo element is placed inside the container and 
+the text is vertically aligned with that.
+.ghost-center {
+  position: relative;
+}
+.ghost-center::before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  width: 1%;
+  vertical-align: middle;
+}
+.ghost-center p {
+  display: inline-block;
+  vertical-align: middle;
+}
+第二部分
+1.块级元素，高度已知
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  height: 100px;
+  margin-top: -50px; /* account for padding and border if not using box-sizing: border-box; */
+}
+2.高度未知
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+3.
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+三.垂直居中对齐
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
