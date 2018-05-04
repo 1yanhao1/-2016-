@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>任务2</title>
+    <link rel="stylesheet" href="任务2.css">
+</head>
+<body>
+<header class="nav-header">
+    <nav>
+        <div class="nav-logo">
+            <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png" alt="logo">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="url">导航链接一</a></li>
+                <li><a href="url">导航链接二</a></li>
+                <li><a href="url">导航链接三</a></li>
+                <li class="active"><a href="url">导航链接四</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<article>
+    <header>
+        <hgroup>
+            <h1>文章一级标题</h1>
+            <h2>文章二级标题</h2>
+            <h3>yanhao  20180503</h3>
+        </hgroup>
+    </header>
+    <section>
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+        </p>
+        <div>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </div>
+
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+
+        <p>这是一个很长很长的段落，换行了</p>
+
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+        </p>
+    </section>
+</article>
+<article>
+    <header>
+        <hgroup>
+            <h1>另一篇文章一级标题</h1>
+            <h2>文章二级标题</h2>
+            <h3>yanhao 20180503</h3>
+        </hgroup>
+    </header>
+    <section>
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+
+        <p>换行了</p>
+
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+
+        <p>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+        </p>
+        <div>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </div>
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+    </section>
+</article>
+<article>
+    <header>
+        <hgroup>
+            <h1>图片</h1>
+        </hgroup>
+    </header>
+    <div>
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+        <figure>
+            <figcaption>好看的图片</figcaption>
+            <img src="../image/task_1_1_1.png" alt="task_1_1_1">
+        </figure>
+    </div>
+
+</article>
+<article>
+    <header>
+        <hgroup>
+            <h1>最后一篇文章一级标题</h1>
+            <h2>文章二级标题</h2>
+            <h3>yanhao 20180503</h3>
+        </hgroup>
+    </header>
+
+    <ol>
+        <li>排名1</li>
+        <li>排名2</li>
+        <li>排名3</li>
+    </ol>
+    <p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格，你们写html的时候不用加</p>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>表头</th>
+            <th>表头</th>
+            <th>表头</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="url">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="url">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="url">操作</a></td>
+        </tr>
+        <tr>
+            <td>表内容单元格</td>
+            <td>表内容单元格</td>
+            <td><a href="url">操作</a></td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td>总计</td>
+            <td colspan="2">1000</td>
+        </tr>
+        </tfoot>
+    </table>
+</article>
+<aside>
+    <header>
+        <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+    </header>
+    <form action="url">
+        <div>
+            <label for="email" class="formone">请输入邮箱地址:</label>
+            <input type="text" name="email" id="email" placeholder="这是一个文本输入框">
+            <p class="formtwo">邮箱地址请按要求格式输入</p>
+        </div>
+        <div>
+            <label for="pwd" class="formone">请输入密码：</label>
+            <input type="password" name="pwd" id="pw1"></br>
+            <label for="pwd" class="formone">请重复输入密码：</label>
+            <input type="password" name="pwd" id="pw2">
+            <p class="formtwo">密码请为6-16位英文数字</p>
+        </div>
+        <div>
+            <label for="sex" class="formone">性别：</label>
+            <input type="radio" checked="checked" name="Sex" value="male" />男
+            <input type="radio" name="Sex" value="female" />女
+        </div>
+        <div>
+            <label for="city" class="formone">城市:</label>
+            <select name="city"> 
+                    <option value="北京">北京</option> 
+                    <option value="上海">上海</option> 
+                    <option value="西安">西安</option> 
+            </select> 
+        </div>
+        <div>
+           <label for="habit" class="formone">爱好:</label>
+           <input type="checkbox" name="habit" value="运动">运动
+           <input type="checkbox" name="habit" value="艺术">艺术
+           <input type="checkbox" name="habit" value="科学">科学
+        </div>
+        <div>
+            <label for="city" class="formone">个人描述:</label>
+            <textarea name="MSG"  rows=2 cols=2>
+            这是一个多行输入框，输入你的个人描述
+            </textarea>
+        </div>
+        <input type="submit" value="确认提交"/>   
+    </form>
+</aside>
+<footer>
+    <span>版权所有&copy;</span>
+</footer>
+</body>
+</html>
